@@ -1,0 +1,68 @@
+{
+  "name": "jirico-games",
+  "private": true,
+  "description": "A blog about tabletop RPGs",
+  "version": "0.1.0",
+  "author": "George Jirico",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "gatsby": "^4.8.1",
+    "gatsby-plugin-feed": "^4.8.0",
+    "gatsby-plugin-google-gtag": "^4.8.0",
+    "gatsby-plugin-image": "^2.8.1",
+    "gatsby-plugin-manifest": "^4.8.1",
+    "gatsby-plugin-offline": "^5.8.1",
+    "gatsby-plugin-react-helmet": "^5.8.0",
+    "gatsby-plugin-sharp": "^4.8.1",
+    "gatsby-remark-autolink-headers": "^5.8.0",
+    "gatsby-remark-copy-linked-files": "^5.8.0",
+    "gatsby-remark-images": "^6.8.1",
+    "gatsby-remark-prismjs": "^6.8.0",
+    "gatsby-remark-responsive-iframe": "^5.8.0",
+    "gatsby-remark-smartypants": "^5.8.0",
+    "gatsby-remark-table-of-contents": "^2.0.0",
+    "gatsby-source-filesystem": "^4.8.1",
+    "gatsby-transformer-remark": "^5.8.1",
+    "gatsby-transformer-sharp": "^4.8.0",
+    "prismjs": "^1.27.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "babel-loader": "^8.2.3",
+    "prettier": "^2.5.1"
+  },
+  "homepage": "https://jirico.games",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
